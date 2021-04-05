@@ -127,8 +127,7 @@ body {
 
 .project1 {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
     border: 1px solid rgb(10, 2, 2);
     background-color: rgb(243, 139, 157);
     text-align: center;
