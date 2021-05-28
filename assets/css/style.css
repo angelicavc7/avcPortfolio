@@ -2,7 +2,7 @@ body {
   font-family: 'Times New Roman', Times, serif;
   margin:0;
   padding: 0;
-  background-color: royalblue;
+  background-color: lightgrey;
 }
 
 header {
@@ -41,7 +41,7 @@ a:hover{
   height: 250px;
   position: absolute;
   top: 70px;
-  background-image: url(https://images.freecreatives.com/wp-content/uploads/2016/02/Download-Plain-Blue-Water-Background.jpg);
+  background-image: url(https://images.sharefaith.com/images/3/1507570813956_36/img_mouseover3.jpg);
   background-size: cover;
   background-position: center center;
 
@@ -69,6 +69,8 @@ aside{
   font-size: 24px;
   letter-spacing: 4px;
   color: black;
+  border: black;
+  border-width: solid 2px;
 } 
 
 .aboutme{
@@ -163,7 +165,7 @@ aside{
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  color: white;
+  color:black;
   margin-bottom: 0;
 }
 .contact aside{
@@ -175,15 +177,16 @@ aside{
  padding-top: 70px;
 }
 .contact a{
-  color: white;
+  color: black;
   font-weight: bold;
   text-decoration: none;
 }
 .contact li{
-  color: white;
+  color: black;
   font-weight: bold;
   text-decoration: none;
+  text-align: right;
 }
 a:hover{
-  color: black;
+  color:cadetblue;
 }
